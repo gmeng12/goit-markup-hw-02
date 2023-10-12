@@ -16,6 +16,13 @@ display: flex;
         align-items: flex-start;
         gap: 20px;
         flex-shrink: 0;}
+        .menu-link{color: #2E2F42;
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;}
         .adress-header-list:hover, .adress-header-list:focus{color:#404bbf; display: flex;
             width: 153px;
             height: 24px;
