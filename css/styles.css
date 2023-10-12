@@ -1,21 +1,9 @@
-body{font-family: 'Roboto', 'Raleway', sans-serif; color: #2E2F42;background-color: #ffffff;}
+body{font-family: 'Roboto', sans-serif; color: #434455;background-color: #ffffff;}
 .list{list-style-type: none;}
 .link{text-decoration: none;}
 button{cursor: pointer;}
-.menu-link:focus, .menu-link:hover{color:#404bbf; 
-display: flex;
-    width: 67px;
-    align-items: flex-start;
-    gap: 40px;}
-    .menu-link-studio:active{color:#404bbf;
-    display: flex;
-        width: 48px;
-        height: 52px;
-        padding-bottom: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        flex-shrink: 0;}
+.menu-link:focus, .menu-link:hover{color:#404bbf; }
+    .menu-link-studio:active{color:#404bbf;}
         .menu-link{color: #2E2F42;
             font-family: Roboto, sans-serif;
             font-size: 16px;
@@ -23,18 +11,13 @@ display: flex;
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.02em;}
-        .adress-header-list:hover, .adress-header-list:focus{color:#404bbf; display: flex;
-            width: 153px;
-            height: 24px;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;}
+        .adress-header-list:hover, .adress-header-list:focus{color:#404bbf; }
 .logo{color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
     .logo>span{color: #2E2F42;
@@ -58,7 +41,8 @@ display: flex;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 1.5;
-                letter-spacing: 0.02;}
+                letter-spacing: 0.02em;}
+                .adress-header{font-style: normal;}
                 /* Hero */
                 .hero{background: #2E2F42;}
                 .hero-title{color: #ffffff;
@@ -76,10 +60,8 @@ display: flex;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
-    .hero-button:hover{color: #FFFfff;
+    background: #4D5AE5;}
+    .hero-button:hover, .hero-button:focus{color: #FFFfff;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -125,6 +107,7 @@ display: flex;
                         font-size: 16px;
                         line-height: 1.5;
                         letter-spacing: 0.02em;}
+                        .team-item{background-color: #ffffff;}
                         /* Our Portfolio */
                         .port-title{color: #2E2F42;
                             text-align: center;
@@ -168,6 +151,6 @@ display: flex;
                                                 font-size: 18px;
                                                 font-style: normal;
                                                 font-weight: 700;
-                                                line-height: 1.16;
+                                                line-height: 1.17;
                                                 letter-spacing: 0.03em;
                                                 text-transform: uppercase;}
